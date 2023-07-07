@@ -1,8 +1,8 @@
 system.site:
   expected_config:
-    mail: ''
-    name: ''
-    slogan: ''
+    mail: 'admin@example.com'
+    name: 'Drush Site-Install'
+    slogan: 'This is an example'
   update_actions:
     change:
       mail: wouter.adem@acquia.com
