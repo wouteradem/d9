@@ -1,0 +1,7 @@
+name: 'Acquia Update Helper'
+description: 'Helper tool for generation and applying of configuration updates.'
+type: module
+core_version_requirement: ^9.4 || ^10
+dependencies:
+  - update_helper:update_helper
+package: Configuration

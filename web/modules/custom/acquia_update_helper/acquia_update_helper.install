@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall module functions.
+ */
+
+/**
+ * Configuration update.
+ */
+function acquia_update_helper_update_9001() {
+  /** @var \Drupal\update_helper\Updater $updater */
+  $updater = \Drupal::service('update_helper.updater');
+
+  // Execute configuration update definitions with logging of success.
+  $updater->executeUpdate('acquia_update_helper', 'acquia_update_helper_update_9001');
+
+  // Output logged messages to related channel of update execution.
+  return $updater->logger()->output();
+}

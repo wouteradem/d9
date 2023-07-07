@@ -1,0 +1,18 @@
+system.date:
+  expected_config:
+    timezone:
+      default: UTC
+  update_actions:
+    change:
+      timezone:
+        default: ''
+system.site:
+  expected_config:
+    mail: wouter.adem@acquia.com
+    name: 'Acquia Config demo'
+    slogan: 'Update Helper'
+  update_actions:
+    change:
+      mail: ''
+      name: ''
+      slogan: ''
