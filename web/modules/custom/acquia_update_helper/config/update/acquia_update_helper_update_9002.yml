@@ -1,0 +1,10 @@
+system.site:
+  expected_config:
+    mail: ''
+    name: ''
+    slogan: ''
+  update_actions:
+    change:
+      mail: wouter.adem@acquia.com
+      name: 'Acquia Update Helper'
+      slogan: 'This is an example'

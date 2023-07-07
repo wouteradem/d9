@@ -8,12 +8,12 @@
 /**
  * Configuration update.
  */
-function acquia_update_helper_update_9001() {
+function acquia_update_helper_update_9002() {
   /** @var \Drupal\update_helper\Updater $updater */
   $updater = \Drupal::service('update_helper.updater');
 
   // Execute configuration update definitions with logging of success.
-  $updater->executeUpdate('acquia_update_helper', 'acquia_update_helper_update_9001');
+  $updater->executeUpdate('acquia_update_helper', 'acquia_update_helper_update_9002');
 
   // Output logged messages to related channel of update execution.
   return $updater->logger()->output();
